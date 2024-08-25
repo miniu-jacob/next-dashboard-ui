@@ -1,0 +1,6 @@
+node_modules
+apikey.ps
+.yarn/
+yarn.lock
+.env
+.env.local
