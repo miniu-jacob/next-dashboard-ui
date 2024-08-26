@@ -1,6 +1,7 @@
 {
-  "packageManager": "yarn@3.8.4",
-  "workspaces": [
-    "next-dashboard-ui"
-  ]
+    "packageManager": "yarn@3.8.4",
+    "workspaces": [
+        "next-dashboard-ui",
+        "next-redux-first"
+    ]
 }
