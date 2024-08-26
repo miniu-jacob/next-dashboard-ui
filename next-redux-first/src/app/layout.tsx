@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import Counter from '@/components/Counter';
 import TodoApp from '@/components/TodoApp';
 import ClientProvider from '@/components/ClientProvider';
+import { cn } from '@/lib/utils';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,13 +19,15 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en'>
-            <body className={inter.className}>
+            <body
+                className={cn(
+                    'min-h-screen bg-background font-sans antialiased',
+                    inter.className,
+                )}
+            >
                 <ClientProvider>
                     <div className='flex m-6 gap-4'>
-                        <div className='border border-blue-300 flex-1'>
-                            <Counter />
-                        </div>
-                        <div className='border border-green-300 flex-1'>
+                        <div className=' border-green-300 flex-1'>
                             <TodoApp />
                         </div>
 
