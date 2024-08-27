@@ -6,6 +6,8 @@
         "next-redux-phonebook"
     ],
     "dependencies": {
+        "react": "^18",
+        "react-dom": "^18",
         "react-redux": "^9.1.2",
         "redux": "^5.0.1"
     }
