@@ -10,7 +10,6 @@ interface EditContactModalProps {
     contact: Contact;
     isOpen: boolean;
     onClose: () => void;
-    onSave: (data: Contact) => void;
 }
 
 // 컴포넌트가 추가 Props 를 받을 수 있도록 () 부분에 정의
