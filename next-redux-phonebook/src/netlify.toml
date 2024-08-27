@@ -1,0 +1,8 @@
+[build]
+  base = "next-redux-phonebook" 
+  command = "yarn install && yarn build" 
+  publish = ".next" 
+  functions = "netlify/functions" 
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs" 
