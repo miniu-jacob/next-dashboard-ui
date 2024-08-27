@@ -69,7 +69,6 @@ const ContactList = () => {
                     contact={selectedContact}
                     isOpen={isModalOpen}
                     onClose={() => setIsModalOpen(false)}
-                    onSave={handleSave}
                 />
             )}
         </div>
