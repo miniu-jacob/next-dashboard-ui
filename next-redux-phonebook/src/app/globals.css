@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -66,4 +67,9 @@
   body {
     @apply bg-background text-foreground;
   }
+}  
+
+.outline-border {
+    /* border: 20px dashed lightblue; */
+    background-image: repeating-linear-gradient(135deg, #83b3db 0px, #83b3db 30px, transparent 30px, transparent 50px, #83b3db 50px, #84ADCB 80px, transparent 80px, transparent 100px);
 }
