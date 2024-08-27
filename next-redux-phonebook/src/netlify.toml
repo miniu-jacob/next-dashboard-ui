@@ -4,5 +4,5 @@
   publish = ".next" 
   functions = "netlify/functions" 
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs" 
+[build.environment]
+    YARN_VERSION = "3.8.4"
