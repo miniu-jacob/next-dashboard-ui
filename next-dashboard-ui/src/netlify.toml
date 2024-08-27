@@ -1,0 +1,7 @@
+[build]
+  command = "yarn install && yarn build" 
+  publish = ".next" 
+  functions = "netlify/functions" 
+
+[build.environment]
+    YARN_VERSION = "3.8.4"
