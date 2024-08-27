@@ -4,6 +4,7 @@ import './globals.css';
 import TodoApp from '@/components/TodoApp';
 import ClientProvider from '@/components/ClientProvider';
 import { cn } from '@/lib/utils';
+import Counter from '@/components/Counter';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -28,8 +29,9 @@ export default function RootLayout({
                 <ClientProvider>
                     <div className='flex m-6 gap-4'>
                         <div className=' border-green-300 flex-1'>
-                            <TodoApp />
+                            <Counter />
                         </div>
+                        {/* <TodoApp /> */}
 
                         {children}
                     </div>

@@ -16,13 +16,13 @@ export default function Home() {
                         연락처 앱
                     </h1>
                     {/* LEFT */}
-                    <div className='flex flex-col md:flex-row w-full mt-4 gap-2'>
+                    <div className='flex flex-col md:flex-row w-full mt-4 gap-6'>
                         <div className='flex-1  bg-white'>
                             <ContactInput />
                         </div>
 
                         {/* RIGHT */}
-                        <div className='flex-1 border border-gray-100 max-w-sm mt-2 md:mt-0'>
+                        <div className='flex-1 border border-gray-100 max-w-md mt-2 md:mt-0'>
                             <ContactList />
                         </div>
                     </div>
