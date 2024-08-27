@@ -1,6 +1,6 @@
 {
     "extends": "next/core-web-vitals",
     "rules": {
-        "react/no-unescaped-entities": "off" // 또는 "warn"으로 설정하여 경고로 처리
+        "react/no-unescaped-entities": "off"
     }
 }
