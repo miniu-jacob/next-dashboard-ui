@@ -1,6 +1,6 @@
 'use client';
 import { RootState } from '@/store/store';
-import { Contact, deleteContact } from '@/store/usersReducer';
+import { Contact, deleteContact, modifyContact } from '@/store/usersReducer';
 import { Pencil, Trash2 } from 'lucide-react';
 import { useDispatch, useSelector } from 'react-redux';
 import EditContactModal from './EditContactModal';
@@ -69,6 +69,7 @@ const ContactList = () => {
                     contact={selectedContact}
                     isOpen={isModalOpen}
                     onClose={() => setIsModalOpen(false)}
+                    onSave={handleSave}
                 />
             )}
         </div>

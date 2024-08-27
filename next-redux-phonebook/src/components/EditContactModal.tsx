@@ -18,7 +18,6 @@ const EditContactModal = ({
     contact,
     isOpen,
     onClose,
-    onSave,
 }: EditContactModalProps) => {
     // 컴포넌트가 클라이언트 사이드에서만 document 객체에 접근하도록 해야 한다.
     // 따라서 useEffect 와 useState를 사용하여 컴포넌트가 마운트 된 후에만
