@@ -30,11 +30,14 @@ const ContactForm = ({
 
     const onSubmitHandler = (data: ContactFormInputs) => {
         onSubmit(data);
-        reset();
+        reset(defaultValues);
     };
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)} className='grid space-y-4 '>
+        <form
+            onSubmit={handleSubmit(onSubmitHandler)}
+            className='grid space-y-4 '
+        >
             <InputField
                 label={'이름'}
                 type='text'
