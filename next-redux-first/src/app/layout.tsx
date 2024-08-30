@@ -31,9 +31,11 @@ export default function RootLayout({
                         <div className=' border-green-300 flex-1'>
                             <Counter />
                         </div>
-                        {/* <TodoApp /> */}
+                        <div className=''>
+                            {/* <TodoApp /> */}
 
-                        {children}
+                            {children}
+                        </div>
                     </div>
                 </ClientProvider>
             </body>

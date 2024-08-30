@@ -3,7 +3,8 @@
     "workspaces": [
         "next-dashboard-ui",
         "next-redux-first",
-        "next-redux-phonebook"
+        "next-redux-phonebook",
+        "next-redux-second"
     ],
     "dependencies": {
         "react": "^18",
